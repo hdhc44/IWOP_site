@@ -187,3 +187,8 @@ footer {
     color: white;
     font-weight: 100;
 }
+@media screen and (max-width:420px){
+    #navbar {
+        display: none;
+    }
+}
