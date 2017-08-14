@@ -187,27 +187,18 @@ footer {
 }
 
 .footer_container h2{
+    margin: 0;
     font-weight: 100;
     color: white;
+    padding: 2px;
 }
 .footer_container p{
+    margin: 0;
     font-weight: 100;
     color: white;
+    padding: 2px;
 }
 
-
-
-/* .footer_container nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.6em;
-}
-
-.footer_container nav ul li {
-    color: white;
-    font-weight: 100;
-} */
 
 @media screen and (max-width:420px) {
     .landing_container {
@@ -246,8 +237,5 @@ footer {
     #intro hr {
         border: 1px solid gray;
         width: 50%;
-    }
-    .footer_container nav {
-        display: none;
     }
 }
