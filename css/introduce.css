@@ -161,10 +161,15 @@ footer {
     text-align: center;
 }
 
-.footer_container h2,p {
+.footer_container h2 {
     font-weight: 100;
     color: white;
 }
+.footer_container p {
+    font-weight: 100;
+    color: white;
+}
+
 
 
 /* .footer_container nav {
