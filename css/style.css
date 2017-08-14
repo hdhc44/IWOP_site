@@ -11,23 +11,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 80px;
+    width: 100%;
 }
 
 #navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 40px;
+    margin: 10px;
 }
 
-#navbar>ul,
-li,
-a {
-    margin: 0;
-    list-style: none;
+#navbar a {
     float: left;
-    padding: 10px;
-    padding-top: 0;
+    padding: 20px;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -214,9 +211,10 @@ footer {
     #logo img {
         margin-top: 5%;
     }
-    #navbar {
-        display: none;
+    #navbar a {
+        padding: 10px;
     }
+
 
     .intro_container {
         top: 40%;
