@@ -94,7 +94,6 @@ p {
 }
 
 .ask_container {
-    width: 80%;
     padding: 30px;
     text-align: left;
 }
@@ -131,30 +130,23 @@ footer {
 
 @media (min-width:801px){
     .ask_container {
-        width: 80%;
         padding-left: 80px;
     }   
 }
 @media (min-width:1025px) {
     .ask_container {
-        width: 80%;
-
         padding-left: 100px;
     }
 }
 
 @media (min-width:1281px) {
     .ask_container {
-        width: 80%;
         padding: 100px;
         padding-left: 200px;
     }
 }
 
 @media screen and (max-width:420px) {
-    #navbar a {
-        padding: 10px;
-    }
     #navbar a {
         padding: 10px;
     }
