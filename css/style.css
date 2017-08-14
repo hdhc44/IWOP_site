@@ -55,7 +55,7 @@ body {
 
 }
 
-.landing_container h1,
+.landing_container > h1,
 h3 {
     font-weight: 100;
     color: white;
@@ -84,7 +84,7 @@ h3 {
     padding: 18px;
 }
 
-.intro_text h3,p {
+.intro_text > h3,p {
     color: black;
     text-align: center;
     font-weight: 100;
@@ -121,7 +121,7 @@ div.box-text {
     margin: 20px;
 }
 
-#box1 .title-ko {
+#box1 .title-ko-selected {
     text-align: left;
     padding-bottom: 0px;
     color: white;
@@ -130,6 +130,14 @@ div.box-text {
     margin: 0;
 }
 
+.title-ko > p {
+    text-align: left;
+    padding-bottom: 0px;
+    color: #03A9F4;;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 0;
+}
 #box1 .title-en {
     margin: 0;
     text-align: left;
@@ -159,6 +167,7 @@ i.material-icons {
     font-size: 1.5em;
     font-weight: 100;
     margin: 0;
+    color: #03A9F4;
 }
 
 .title-en {
